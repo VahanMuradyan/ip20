@@ -1,0 +1,10 @@
+{
+  "alias": "ip20.vercel.app",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@frontity/now"
+    }
+  ]
+}

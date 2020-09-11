@@ -1,0 +1,1444 @@
+::-moz-selection {
+  background-color: #00496d;
+  color: #fff;
+}
+::selection {
+  background-color: #00496d;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #003347;
+}
+
+hr {
+  height: 1px;
+  background-color: #ffffff;
+  margin: 100px 0 80px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header */
+div.stickyHeader {
+  position: sticky;
+  background-color: #00496d;
+  z-index: 9999;
+}
+.header-container {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos-section {
+  display: flex;
+  align-items: center;
+}
+.site-logo {
+  width: 317px;
+  margin-right: 32px;
+}
+.g20-logo {
+  width: 100px;
+}
+.logos-divider {
+  margin-right: 32px;
+  width: 1px;
+  height: 80px;
+  background-color: #86b8cc;
+}
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-links .register-link {
+  border-right: 1px solid #86b8cc;
+}
+
+/* Event Information */
+.event_info_section {
+  position: relative;
+}
+.event_info_section video {
+  /* width: 100%; */
+}
+.video-container {
+  overflow: hidden;
+  width: 100%;
+  height: 810px;
+  position: relative;
+}
+.text_on_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_on_video .event_title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 24px;
+  font-family: "BukraRegular";
+}
+.text_on_video .event_desc {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 0;
+  font-family: "BukraAltBold";
+  line-height: 35px;
+  margin-bottom: 32px;
+  letter-spacing: normal;
+}
+.start_date_section {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px 25px 20px;
+  display: flex;
+  max-width: 385px;
+}
+.start_date {
+  display: flex;
+  align-items: flex-end;
+  margin-left: -50px;
+  margin-top: 10px;
+}
+.start_date h1 {
+  font-size: 72px;
+  font-family: "BukraAltBold";
+  margin: 0;
+  color: #fff;
+  margin-right: 20px;
+}
+.start_date p {
+  font-size: 30px;
+  font-family: "BukraAltRegular";
+  margin: 0;
+  color: #fff;
+  margin-right: 10px;
+}
+.start_date h5 {
+  font-size: 30px;
+  font-family: "BukraAltBold";
+  margin: 0 0 4px;
+  color: #fff;
+}
+
+/* Countdown */
+.countdown-section {
+  padding: 80px 10px 100px;
+  background-color: #003347;
+}
+.countdown-container .countdown-title-section {
+  position: relative;
+}
+.countdown-container .title-img {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.countdown-container .title-cube {
+  background: #00496d87;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.countdown-container .countdown-title {
+  position: relative;
+  margin-left: 25px;
+  margin-top: -35px;
+}
+.countdown-container .countdown-title p {
+  font-family: "BukraAltRegular";
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.countdown-container .countdown-title strong {
+  font-family: "BukraAltBold";
+}
+.countdown-container .countdown-cubes-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.countdown-container .countdown-cubes:not(:last-child) {
+  margin-right: 20px;
+}
+.countdown-container .countdown-cubes-n {
+  font-family: "BukraAltBold";
+  font-size: 72px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: solid 1px #00496d;
+  background-color: #00496d;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countdown-container .countdown-cubes-l {
+  font-family: "BukraAltMedium";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.countdown-container .register-to-event-text {
+  font-family: "BukraAltRegular";
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 80px;
+}
+.countdown-container .register-to-event-text strong {
+  font-family: "BukraAltBold";
+}
+.countdown-container .register-to-event-link {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* About */
+.about-section {
+  padding: 80px 15px;
+  background: #fff;
+}
+.about-container .about-title-section {
+  position: relative;
+  margin-bottom: 48px;
+}
+.about-container .title-img {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  z-index: 2;
+}
+.about-container .title-cube {
+  background: #00496d;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -5px;
+  left: -10px;
+  z-index: 1;
+}
+.about-container .about-title {
+  position: relative;
+  margin-left: 25px;
+  margin-top: -35px;
+  z-index: 3;
+}
+.about-container .about-title p {
+  font-family: "BukraAltBold";
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #003347;
+}
+.about-container .about-description-section p {
+  font-family: "BukraAltRegular";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #003347;
+}
+
+/* Programme */
+.programme-section {
+  padding: 80px 15px;
+  background-color: #00496d;
+  position: relative;
+}
+.programme-section .grouplines {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  object-fit: contain;
+}
+.programme-container .programme-title-section {
+  position: relative;
+}
+.programme-container .title-img {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  z-index: 2;
+}
+.programme-container .title-cube {
+  background: #003347;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 1;
+}
+.programme-container .programme-title {
+  position: relative;
+  margin-left: 30px;
+  margin-top: -40px;
+  z-index: 3;
+}
+.programme-container .programme-title p {
+  font-family: "BukraAltBold";
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.programme-container .forum-desc p {
+  font-family: "BukraAltRegular";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.programme-container .forum-aims .operation-measures,
+.programme-container .forum-aims .policy,
+.programme-container .forum-aims .knowledge {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.programme-container .forum-aims .knowledge {
+  margin-bottom: 0;
+}
+
+.programme-container .forum-aims .operation-measures div:first-of-type,
+.programme-container .forum-aims .policy div:first-of-type,
+.programme-container .forum-aims .knowledge div:first-of-type {
+  min-width: 42px;
+  min-height: 42px;
+  background-color: #003347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.programme-container .forum-aims .operation-measures div:last-child,
+.programme-container .forum-aims .policy div:last-child,
+.programme-container .forum-aims .knowledge div:last-child {
+  font-family: "BukraAltMedium";
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Promo Video */
+.promo-video-section {
+  overflow: hidden;
+  width: 100%;
+  height: 810px;
+  position: relative;
+}
+.promo-video-section video {
+  width: 100%;
+}
+.promo-video-section .text_on_video img {
+  cursor: pointer;
+}
+
+/* Agenda */
+.agenda-section {
+  padding: 88px 10px;
+  background-color: #003347;
+}
+.agenda-container .agenda-title-section {
+  position: relative;
+}
+.agenda-container .title-img {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.agenda-container .title-cube {
+  background: #00496d87;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.agenda-container .agenda-title {
+  position: relative;
+  margin-left: 30px;
+  margin-top: -40px;
+  margin-bottom: 48px;
+}
+.agenda-container .agenda-title p {
+  font-family: "BukraAltBold";
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.agenda-container .dateTime {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  display: inline-block;
+  margin-bottom: 48px;
+}
+.agenda-container .dateTime h3 {
+  font-family: "BukraAltBold";
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.agenda-container .dateTime p {
+  font-family: "BukraAltRegular";
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.agenda-container .timelist {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 16px;
+}
+.agenda-container .timelist p {
+  font-family: "BukraAltMedium";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #bcc4c9;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.agenda-container .bold-text {
+  font-family: "BukraAltBold";
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.agenda-container .medium-text {
+  font-family: "BukraAltMedium";
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #bcc4c9;
+}
+.agenda-container .light-text {
+  font-family: "BukraAltRegular";
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #86b8cc;
+}
+
+/* Registration */
+.registration-section {
+  margin-top: 200px;
+}
+.registration-container .registration-title-section {
+  position: relative;
+  margin-bottom: 48px;
+}
+.registration-container .title-img {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.registration-container .title-cube {
+  background: #00496d87;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.registration-container .registration-title {
+  position: relative;
+  margin-left: 25px;
+  margin-top: -40px;
+}
+.registration-container .registration-title p {
+  font-family: "BukraAltBold";
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.registration-container .registration-desc-section {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 24px;
+}
+.registration-container .registration-desc-section p {
+  font-family: "BukraAltRegular";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.registration-container .registration-desc-section p strong {
+  font-family: "BukraAltBold";
+}
+.registration-container .registration-desc-section ul {
+  font-family: "BukraAltMedium";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 24px 10px;
+}
+.registration-container .registration-desc-section ul li {
+  line-height: 2;
+  padding-left: 10px;
+}
+.registration-container .delegate-information-section {
+  margin-top: 72px;
+}
+.registration-container .delegate-information-section .title {
+  font-family: "BukraAltBold";
+  font-size: 24px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 16px 0;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 48px;
+}
+.registration-container .choose-delegate p {
+  font-family: "BukraBold";
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.registration-container .custom-radio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.registration-container .custom-radio {
+  margin: 24px 0;
+}
+.registration-container .custom-radio label:hover {
+  background-color: #00649c;
+}
+.registration-container .custom-radio label {
+  font-family: "BukraRegular";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  background: #00496d;
+  padding: 14px 16px;
+  margin-right: 16px;
+  border: 2px solid#00496d;
+}
+.registration-container .custom-radio label.selected {
+  background-color: #00649c;
+  border: 2px solid#fff;
+}
+.registration-container .input-fields {
+  margin: 40px 0;
+}
+.registration-container label {
+  font-family: "BukraBold";
+  font-size: 14px;
+  color: #ffffff;
+}
+.registration-container label span {
+  font-family: "BukraRegular";
+  font-size: 14px;
+  color: #ffffff;
+}
+.registration-container input[type="text"] {
+  margin: 16px 0;
+  width: 364px;
+  height: 48px;
+  background-color: #00496d;
+  border: none;
+  padding: 16px;
+  font-family: "BukraRegular";
+  font-size: 16px;
+  color: #ffffff;
+}
+.registration-container .inputError {
+  background-color: #861313 !important;
+}
+.registration-container .arrowError {
+  background-color: #b31919 !important;
+}
+.registration-container textarea {
+  margin: 16px 0;
+  width: 100%;
+  height: 192px;
+  background-color: #00496d;
+  border: none;
+  padding: 9px 16px;
+  font-family: "BukraRegular";
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+  resize: none;
+}
+.registration-container textarea:focus {
+  border: 2px solid #fff;
+  outline: none;
+}
+.registration-container .limitWords {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+/* width */
+.registration-container textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.registration-container textarea::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Handle */
+.registration-container textarea::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+.registration-container textarea::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+.registration-container input[type="text"]:focus {
+  border: 2px solid #fff;
+  outline: none;
+}
+.registration-container .file-input {
+  margin: 16px 0;
+  width: 364px;
+  height: 48px;
+  background-color: #00496d;
+  border: none;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+}
+.registration-container .file-input input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.registration-container .file-input .choose-part {
+  background-color: #00649c;
+  width: 98px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-container .file-input .filename {
+  display: flex;
+  align-items: center;
+  font-family: "BukraLight";
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-size: 16px;
+}
+.registration-container .example {
+  font-family: "BukraRegular";
+  font-size: 12px;
+  color: #ffffff;
+}
+.registration-container .input-fields .dropdown {
+  margin: 16px 0;
+  width: 364px;
+  height: 48px;
+  background-color: #00496d;
+  border: none;
+  font-family: "BukraRegular";
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.registration-container .input-fields .dropdown .selectedCountry,
+.registration-container .input-fields .dropdown .selectedDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+}
+.registration-container .input-fields .dropdown .arrow {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  background-color: #00649c;
+}
+.registration-container .input-fields .dropdown .arrow img {
+  transition: 0.5s;
+}
+.registration-container .input-fields .dropdown .arrow img.toggled {
+  transform: rotate(-180deg);
+}
+.registration-container .date-picker {
+  height: 0;
+  background-color: #00496d;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 56px;
+  padding: 0px;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+.registration-container .date-picker.open {
+  height: auto;
+  padding: 16px;
+  width: 464px;
+  overflow-y: unset;
+}
+.registration-container .date-picker .calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+.registration-container .date-picker .calendar-header .left-arrow {
+  width: 48px;
+  height: 48px;
+  background-color: #00649c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.registration-container .date-picker .calendar-header .months {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "BukraBold";
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+.registration-container .date-picker .calendar-header .years {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "BukraBold";
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+.registration-container .date-picker .calendar-header .right-arrow {
+  width: 48px;
+  height: 48px;
+  background-color: #00649c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.registration-container .date-picker .calendar-header .months .months-list,
+.registration-container .date-picker .calendar-header .years .years-list {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 142px;
+  background-color: #00496d;
+  border: solid 1px #ffffff;
+  display: none;
+}
+.registration-container .date-picker .calendar-header .months img.open,
+.registration-container .date-picker .calendar-header .years img.open {
+  transform: rotate(-180deg);
+}
+.registration-container
+  .date-picker
+  .calendar-header
+  .months
+  .months-list
+  .selectedMonth,
+.registration-container
+  .date-picker
+  .calendar-header
+  .years
+  .years-list
+  .selectedYear {
+  color: #00496d;
+  background-color: #fff;
+}
+.registration-container .date-picker .calendar-header .years .years-list {
+  height: 576px;
+  overflow-y: auto;
+}
+/* width */
+.registration-container
+  .date-picker
+  .calendar-header
+  .years
+  .years-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.registration-container
+  .date-picker
+  .calendar-header
+  .years
+  .years-list::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Handle */
+.registration-container
+  .date-picker
+  .calendar-header
+  .years
+  .years-list::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+.registration-container
+  .date-picker
+  .calendar-header
+  .years
+  .years-list::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+.registration-container .date-picker .calendar-header .months .months-list.open,
+.registration-container .date-picker .calendar-header .years .years-list.open {
+  display: block;
+}
+.registration-container .date-picker .calendar-header .months .months-list p,
+.registration-container .date-picker .calendar-header .years .years-list p {
+  font-family: "BukraBold";
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 0;
+  padding: 16px;
+}
+.registration-container
+  .date-picker
+  .calendar-header
+  .months
+  .months-list
+  p:hover,
+.registration-container
+  .date-picker
+  .calendar-header
+  .years
+  .years-list
+  p:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.registration-container .date-picker .calendar-header .months img,
+.registration-container .date-picker .calendar-header .years img {
+  margin-right: 8px;
+}
+.registration-container .date-picker .week-days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.registration-container .date-picker .week-days div {
+  font-family: "BukraBold";
+  font-size: 10px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+}
+.registration-container .date-picker .week-days-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.registration-container .date-picker .week-days-numbers div {
+  font-family: "BukraBold";
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  cursor: default;
+}
+.registration-container .date-picker .week-days-numbers div:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.registration-container .date-picker .week-days-numbers div.selectedDay {
+  background-color: #fff;
+  color: #00496d;
+}
+.registration-container .dropdown-list {
+  height: 0;
+  background-color: #00496d;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 56px;
+  padding: 0px;
+  overflow-y: auto;
+  transition: 0.5s;
+}
+.registration-container .dropdown-list.open {
+  height: 288px;
+  padding: 4px;
+}
+.registration-container .dropdown-list .dropdown-item {
+  font-family: "BukraRegular";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 16px;
+}
+.registration-container .dropdown-list .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.registration-container .dropdown-list .dropdown-item.selected {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+/* width */
+.registration-container .dropdown-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.registration-container .dropdown-list::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Handle */
+.registration-container .dropdown-list::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+.registration-container .dropdown-list::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.registration-container .submit_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-container .submit_btn button {
+  width: 206px;
+  border: solid 1px #00649c;
+  height: 48px;
+  background-color: #00649c;
+  font-family: "BukraBold";
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  transition: 0.2s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-container .submit_btn button:focus {
+  outline: none;
+}
+.registration-container .submit_btn button:hover {
+  background-color: #00496d;
+  border: solid 1px #00496d;
+}
+.registration-container .submit_btn button:disabled {
+  border: solid 1px #00649c;
+  background-color: #00649c;
+  cursor: not-allowed;
+}
+.registration-container .submit_btn button.formSubmitted {
+  border: solid 1px #4e8613;
+  background-color: #4e8613;
+}
+.registration-container .registration-confirm-section {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 24px;
+}
+.registration-container .registration-confirm-section p {
+  font-family: "BukraAltRegular";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #bcc4c9;
+  display: flex;
+  align-items: center;
+}
+.registration-container .registration-confirm-section img {
+  margin-right: 8px;
+}
+.registration-container .registration-confirm-section .back-to-home {
+  margin-top: 48px;
+}
+
+/* Side Menu */
+
+#cd-vertical-nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+#cd-vertical-nav ul li {
+  line-height: normal;
+  margin: 0;
+}
+
+#cd-vertical-nav {
+  position: fixed;
+  left: 40px;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+#cd-vertical-nav a {
+  display: inline-block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+#cd-vertical-nav a:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#cd-vertical-nav a span {
+  display: inline-block;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+#cd-vertical-nav a:hover .cd-dot {
+  width: 32px;
+}
+#cd-vertical-nav a:hover .cd-label {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+#cd-vertical-nav a.is-selected .cd-dot {
+  background-color: white;
+  width: 32px;
+  left: -2px;
+}
+#cd-vertical-nav a.is-selected .cd-dot.cd-dot-on-white {
+  background-color: #00649c;
+}
+#cd-vertical-nav .cd-dot {
+  position: relative;
+  top: -3px;
+  width: 24px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
+  -moz-transition: -moz-transform 0.2s, background-color 0.5s;
+  transition: transform 0.2s, background-color 0.5s;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+#cd-vertical-nav .cd-dot.cd-dot-on-white {
+  background-color: rgba(0, 100, 156, 0.4);
+}
+#cd-vertical-nav .cd-label {
+  position: relative;
+  margin-right: 10px;
+  padding: 3px 0.5em;
+  color: white;
+  font-family: "BukraRegular";
+  font-size: 14px;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+  opacity: 0;
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+#cd-vertical-nav .cd-label.cd-label-on-white {
+  color: #00649c;
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  #cd-vertical-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .site-logo {
+    width: 211px;
+  }
+  .g20-logo {
+    width: 80px;
+  }
+  .logos-divider {
+    height: 60px;
+  }
+  .countdown-container .countdown-cubes-n {
+    font-size: 48px;
+    height: 100px;
+    width: 100px;
+  }
+  .countdown-container .register-to-event-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .registration-container input[type="text"],
+  .registration-container .input-fields .dropdown,
+  .registration-container .file-input {
+    width: 304px;
+  }
+  .programme-section .grouplines {
+    width: 336px;
+  }
+  .promo-video-section {
+    height: 576px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .register-link {
+    display: none;
+  }
+  .site-logo {
+    width: 158px;
+    margin-right: 16px;
+  }
+  .g20-logo {
+    width: 60px;
+  }
+  .logos-divider {
+    height: 40px;
+    margin-right: 16px;
+  }
+  .text_on_video .event_title {
+    font-size: 18px;
+  }
+  .text_on_video .event_desc {
+    font-size: 24px;
+  }
+  .registration-container input[type="text"],
+  .registration-container .input-fields .dropdown,
+  .registration-container .file-input {
+    width: 100%;
+  }
+  .programme-section .grouplines {
+    width: 186px;
+  }
+  .start_date_section img,
+  .countdown-container .title-img,
+  .about-container .title-img,
+  .programme-container .title-img,
+  .agenda-container .title-img,
+  .registration-container .title-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+  .countdown-container .countdown-title p,
+  .about-container .about-title p,
+  .programme-container .programme-title p,
+  .agenda-container .agenda-title p,
+  .registration-container .registration-title p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .countdown-container .title-cube,
+  .programme-container .title-cube,
+  .about-container .title-cube,
+  .agenda-container .title-cube,
+  .registration-container .title-cube {
+    height: 20px;
+    width: 20px;
+    top: -5px;
+    left: -5px;
+  }
+  .programme-container .programme-title,
+  .agenda-container .agenda-title,
+  .registration-container .registration-title {
+    margin-left: 20px;
+    margin-top: -30px;
+  }
+  .promo-video-section {
+    height: 432px;
+  }
+  .footer-container p {
+    width: 240px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 576px) {
+  /* .container {
+    max-width: calc(100% - 32px);
+  } */
+  .text_on_video .event_title,
+  .text_on_video .event_desc {
+    text-align: center;
+  }
+  .start_date_section {
+    max-width: 100%;
+  }
+  .start_date {
+    margin-left: -30px;
+  }
+  .start_date h1 {
+    font-size: 48px;
+  }
+  .start_date h5,
+  .start_date p {
+    font-size: 20px;
+  }
+  .site-logo {
+    margin-right: 12px;
+    width: 119px;
+  }
+  .g20-logo {
+    width: 40px;
+  }
+  .logos-divider {
+    margin-right: 12px;
+  }
+  .text_on_video .event_desc {
+    font-size: 24px;
+  }
+  .countdown-container .countdown-cubes-n {
+    font-size: 24px;
+    height: 60px;
+    width: 60px;
+  }
+  .countdown-container .countdown-cubes-l {
+    font-size: 12px;
+  }
+  .register-to-event-link a {
+    display: block;
+    width: 100%;
+  }
+  .about-container .about-title {
+    margin-left: 20px;
+  }
+
+  .registration-container .submit_btn button {
+    width: 100%;
+  }
+  .registration-container .date-picker.open {
+    width: 100%;
+  }
+  .registration-container .date-picker .calendar-header {
+    padding: 32px 0;
+  }
+  .registration-container .date-picker .calendar-header .left-arrow,
+  .registration-container .date-picker .calendar-header .right-arrow {
+    width: 40px;
+    height: 40px;
+  }
+  .registration-container .date-picker .calendar-header .months,
+  .registration-container .date-picker .calendar-header .years {
+    font-size: 12px;
+  }
+  .registration-container .date-picker .calendar-header .months .months-list,
+  .registration-container .date-picker .calendar-header .years .years-list {
+    width: 110px;
+  }
+  .registration-container .registration-confirm-section p {
+    align-items: flex-start;
+  }
+  .registration-container .registration-confirm-section .back-to-home a {
+    width: 100%;
+  }
+  .programme-section .grouplines {
+    width: 152px;
+  }
+  .agenda-container .dateTime {
+    display: block;
+  }
+  .promo-video-section {
+    height: 180px;
+  }
+  .footer-container {
+    justify-content: center;
+  }
+  .footer-container p {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin-top: 12px;
+    border-top: 1px solid #003347;
+  }
+}

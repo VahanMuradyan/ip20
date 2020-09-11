@@ -1,0 +1,377 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.1",
+  "hash": "a698d7c963f3a39c5b79",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\User\\Desktop\\projects\\ip20\\build\\static",
+  "assetsByChunkName": {
+    "archive": "archive.module.js",
+    "archive~post": "archive~post.module.js",
+    "ip20": "ip20.module.js",
+    "post": "post.module.js"
+  },
+  "assets": [
+    {
+      "name": "archive.module.js",
+      "size": 74644,
+      "chunks": [
+        "archive"
+      ],
+      "chunkNames": [
+        "archive"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "archive~post.module.js",
+      "size": 144567,
+      "chunks": [
+        "archive~post"
+      ],
+      "chunkNames": [
+        "archive~post"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/29ltbukrabold.woff",
+      "size": 37948,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/29ltbukrabolditalic.woff",
+      "size": 38288,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/29ltbukralight.woff",
+      "size": 36772,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/29ltbukraregular.woff",
+      "size": 37152,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/BukraAlt_Bold.woff",
+      "size": 36932,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/BukraAlt_Medium.woff",
+      "size": 37372,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/BukraAlt_Regular.woff",
+      "size": 36668,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Bold-LATIN.woff2",
+      "size": 33648,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Bold-US-ASCII.woff2",
+      "size": 22248,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Bold.woff2",
+      "size": 138872,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Medium-LATIN.woff2",
+      "size": 33232,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Medium-US-ASCII.woff2",
+      "size": 21828,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-Medium.woff2",
+      "size": 137268,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-SemiBold-LATIN.woff2",
+      "size": 33456,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-SemiBold-US-ASCII.woff2",
+      "size": 22032,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Inter-SemiBold.woff2",
+      "size": 138088,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/angle-down.svg",
+      "size": 319,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/arrow.svg",
+      "size": 526,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/calendar.svg",
+      "size": 1650,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/check-circle.svg",
+      "size": 531,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/clock.svg",
+      "size": 806,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/g20-logo2x.png",
+      "size": 12752,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/grouplines.svg",
+      "size": 20282,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/handshake.svg",
+      "size": 1864,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/left-arrow.svg",
+      "size": 526,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/lightbulb.svg",
+      "size": 2371,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/lines.png",
+      "size": 5888,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/logo.png",
+      "size": 53320,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/play.svg",
+      "size": 531,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/right-arrow.svg",
+      "size": 524,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/saip-logo.png",
+      "size": 5091,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/share.svg",
+      "size": 1628,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ip20.module.js",
+      "size": 8315976,
+      "chunks": [
+        "ip20"
+      ],
+      "chunkNames": [
+        "ip20"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "post.module.js",
+      "size": 30879,
+      "chunks": [
+        "post"
+      ],
+      "chunkNames": [
+        "post"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "ip20": {
+      "chunks": [
+        "ip20"
+      ],
+      "assets": [
+        "ip20.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "ip20": {
+      "chunks": [
+        "ip20"
+      ],
+      "assets": [
+        "ip20.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "archive": {
+      "chunks": [
+        "archive~post",
+        "archive"
+      ],
+      "assets": [
+        "archive~post.module.js",
+        "archive.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "post": {
+      "chunks": [
+        "archive~post",
+        "post"
+      ],
+      "assets": [
+        "archive~post.module.js",
+        "post.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
